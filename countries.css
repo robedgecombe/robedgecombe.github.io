@@ -1,0 +1,13 @@
+
+
+body{background: #030330 url(http://www.cg4tv.com/media/p/che/image/3d-animation/rotating-earth-map-animation.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;
+}
+	h1, h2, h3{color:white;}
+	p{color: orange;}
+header {background:black;
+text-align: center;}
+
+	
