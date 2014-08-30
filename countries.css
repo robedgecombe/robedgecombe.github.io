@@ -6,8 +6,184 @@ body{background: #030330 url(http://www.cg4tv.com/media/p/che/image/3d-animation
 	background-attachment: fixed;
 }
 	h1, h2, h3{color:white;}
-	p{color: orange;}
+	p{color: white;}
 header {background:black;
-text-align: center;}
+text-align: center;
+font-family: American typewriter;
+vertical-align: center;
+}
+ul {width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
 
-	
+ul li {display: inline;
+float: left;
+display: block;
+width: 420px;
+background-color: red;
+text-decoration: none;
+}
+a:hover {color: white;}
+
+/* Flags */
+#flags {background-color: black;
+text-align: center;
+margin: 1px;
+padding: none;
+width: 1250px;
+height: 30px;
+font-family: American typewriter;
+}
+/* Argentina */
+#Argentina {background-color: blue;
+	display: inline-block;
+float: left;
+margin: 0px 0px 0px 25px;
+padding: 2px;
+width: 200px;
+height: 150px;}
+/* Brazil */
+#Brazil {background-color: green;
+	display: inline-block;
+	float: left;
+margin: 0px 0px 0px 0px;
+padding: 2px;
+width: 200px;
+height: 150px;}
+/* Cameroon */
+#Cameroon {background-color: black;
+	display: inline-block;
+	float: left;
+margin: 0px 0px 0px 0px;
+padding: 2px;
+width: 200px;
+height: 150px;}
+/* Denmark */
+#Denmark {background-color: red;
+	display: inline-block;
+	float: left;
+margin: 0px 0px 0px 0px;
+padding: 2px;
+width: 200px;
+height: 150px;}
+/* Finland */
+#Finland {background-color: blue;
+	display: inline-block;
+	float: left;
+margin: 0px 0px 0px 0px;
+padding: 2px;
+width: 200px;
+height: 150px;}
+/* Germany */
+#Germany {background-color: black;
+	display: inline-block;
+	float: left;
+margin: 0px 0px 0px 0px;
+padding: 2px;
+width: 200px;
+height: 150px;}
+
+/* Maps */
+#Maps {background-color: black;
+margin-top: 0px;
+}
+/* t1 */
+#t1 {display: inline-block;
+	float: left;
+margin: 0px 0px 0px 0px;
+padding: 2px;
+width: 200px;
+height: 300px;}
+/* m1 */
+#m1 {display: inline-block;
+	float: left;
+margin: 0px 0px 0px 0px;
+padding: 2px;
+width: 200px;
+height: 300px;}
+/* t2 */
+#t2 {display: inline-block;
+	float: left;
+margin: 0px 0px 0px 0px;
+padding: 2px;
+width: 200px;
+height: 300px;}
+/* m2 */
+#m2 {display: inline-block;
+	float: left;
+margin: 0px 0px 0px 0px;
+padding: 2px;
+width: 200px;
+height: 300px;}
+/* t3 */
+#t3 {display: inline-block;
+	float: left;
+margin: 0px 0px 0px 0px;
+padding: 2px;
+width: 200px;
+height: 300px;}
+/* m3 */
+#m3 {display: inline-block;
+	float: left;
+margin: 0px 0px 0px 0px;
+padding: 2px;
+width: 200px;
+height: 300px;}
+/* m4 */
+#m4 {display: inline-block;
+	float: left;
+margin: 0px 0px 0px 0px;
+padding: 2px;
+width: 200px;
+height: 150px;}
+/* t4 */
+#t4 {display: inline-block;
+	float: left;
+margin: 0px 0px 0px 0px;
+padding: 2px;
+width: 200px;
+height: 150px;
+text-align: left;}
+/* m5 */
+#m5 {display: inline-block;
+	float: left;
+margin: 0px 0px 0px 0px;
+padding: 2px;
+width: 200px;
+height: 150px;}
+/* t5 */
+#t5 {display: inline-block;
+	float: left;
+margin: 0px 0px 0px 0px;
+padding: 2px;
+width: 200px;
+height: 150px;
+text-align: left;}
+/* m6 */
+#m6 {display: inline-block;
+	float: left;
+margin: 0px 0px 0px 0px;
+padding: 2px;
+width: 200px;
+height: 150px;}
+/* t6 */
+#t6 {display: inline-block;
+	float: left;
+margin: 0px 0px 0px 0px;
+padding: 2px;
+width: 200px;
+height: 150px;
+text-align: left;}
+/* info */
+#info {background-color: black;
+margin-top: 500px}
+/* actualinfo */
+#actualinfo {float: left;
+	display: inline-block;
+text-indent: right;
+width: 1250px;
+background-color: none;}
+
