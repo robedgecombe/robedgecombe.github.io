@@ -1,0 +1,36 @@
+a {color: #332E28;}
+a:hover{color: #8E7F6C;}
+html{height: 100%;
+position: relative;}
+header {font-family: copperplate;
+background: #B39673 url("http://www.pandaterm.rs/images/Old-Paper-Background.jpg");
+text-align: center;
+color: #201A13;
+margin-top: 10px;
+padding-top: 1px;
+padding-left: 25px;
+padding-right: 25px;
+padding-bottom: 1px;
+border-style: double;
+border-color: #1E1307;}
+body {width: 70%;
+margin: 0px 160px;
+background: url("http://trollitc.com/wp-content/uploads/2012/08/background.jpg");
+font-family: tahoma;
+color: 553610;}
+/* DMB */
+#DMB {background-color: #B39673;
+padding: 0px 20px;
+padding-top: 1px;
+padding-bottom: 1px;
+margin-top: 10px;
+border-style: double;
+border-color: #1E130;}
+/* Margins-Borders-Padding */
+#Margins-Borders-Padding {background-color: #DBA159;
+padding: 0px 20px;
+margin-top: 15px;
+margin-bottom: 15px;
+border-style: double;
+border-color: #1E130;}
+h1, h2{font-family: copperplate;}
