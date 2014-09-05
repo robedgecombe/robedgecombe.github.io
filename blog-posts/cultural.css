@@ -1,0 +1,43 @@
+a {color: #332E28;}
+a:hover{color: #8E7F6C;}
+h1, h2 {
+	text-align: center;
+}
+html{
+	height: 100%;
+position: relative;
+}
+header {
+	font-family: copperplate;
+background: #B39673 url("http://grandvalleydesign.com/wp-content/uploads/2012/12/website-background.gif");
+text-align: center;
+color: #E7FAFA;
+margin-top: 10px;
+padding-top: 1px;
+padding-left: 25px;
+padding-right: 25px;
+padding-bottom: 1px;
+border-style: groove;
+border-color: #6B9090;
+}
+footer {
+margin-top: 3%;
+margin-bottom: 2%;
+text-align: center;
+}
+body {
+	width: 70%;
+margin: 0px 160px;
+background: url("http://www.yucapro.com/images/background13.jpg");
+background-attachment: fixed;
+font-family: tahoma;
+color: E7FAFA;
+}
+/* feelings */
+#feelings {background-color: #1F1F1F;
+padding: 0px 20px;
+padding-top: 1px;
+padding-bottom: 1px;
+margin-top: 10px;
+border-style:groove;
+border-color: #6B9090;}
