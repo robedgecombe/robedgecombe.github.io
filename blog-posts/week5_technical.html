@@ -1,0 +1,21 @@
+<!doctype.html>
+<head>
+	<meta charset="utf-8">
+	<title>Technical Blog</title>
+	<link rel="stylesheet" href="technical.css">
+	</head>
+<header>
+<h1>Ruby Blog</h1>
+<h2>come see my weekly musings as I swim in the deep sea of ruby</h2>
+	</header>
+	<section id="ruby">
+		<h1>What could I teach someone after this week's challenges</h1>
+		<p>To be fair, I'm probably not the one you would go to if you wanted to learn about Ruby, there would be more experienced people
+			out there. However, I did manage to struggle on through this week's work and learn a few things, I think. I'm hoping that I learnt more at a subconscious level, or that some of the stuff will become apparent later on. That does happen sometimes.</p>
+			<br>
+			<p>But I digress. My most successful challenge this week would have been the boggle one. I spent a long time on that, and most of the time was spent banging my head against the wall. But then I went for a walk in the afternoon, and I think that this helped. When I came back from the walk, some things clicked.
+				<br>
+				The boggle board came in the form of an array, which had been divided into four different sections. The goal was to get it to return a row, and then a column. To get this, you need to use the slice method. This forces the array to acknowledge the different rows, and you can decide which one you want by putting the row number in brackets at the end - from 0-3 (as computers always start counting at zero). You assign an instance variable to each row using the @ sign and put each one at the top. Then in the next method, you define get_row, which is what the person needs to type with the row number in brackets after it, to get it back. If they put in a number outside 0-3, it returns 'out of range'. this can be done with if / else statements.</p>
+				<p>Next was to do the same thing, but for columns. The key for this one was using the map method, which returns it as an array but in the context that you describe it to be. Then in squiggly brackets you index the parameter for get_col, which is the method you will be calling to get the column, and then the column number which goes in square brackets. Define these as instance variable hash keys at the top of the whole method, and then use a series of if/else statements to spell out which instance variable you will call upon depending on which column number was entered in.</p>
+				<p>I didn't really pseudocode correctly for this one, nor did I refactor it and I think that the driver tests were incorrect. However, I have since <em>kind of</em> figured out what you are supposed to do with these, so I should be able to do it correctly in later challenges, even if I stuggle on the challenges themselves.</p>
+				<footer>the end</footer>
